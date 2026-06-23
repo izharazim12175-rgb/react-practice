@@ -6,6 +6,7 @@ import './App.css'
 import Header from './Header'
 import Footer from './Footer'
 import download from './assets/download.jpg';
+import camera from './assets/camera.jpg';
 
 
 function App() {
@@ -14,12 +15,12 @@ function App() {
   return (
     <div className="App">
        <div className="logo-container">
-         {/* <img src={reactLogo} alt="React Logo" className="logo" />  */}
-         {/* <img src={viteLogo} alt="Vite Logo" className="logo" />  */}
+        <img src={download} alt="Download" className="download-img" /> 
+        <img src={camera} alt="Camera" className="camera-img" />   
+        <h2>izhar azim welcome</h2>
        </div>
-       {/* <img src={heroImg} alt="Hero Image" className="hero-img" />  */}
-       <img src={download} alt="Download" className="download-img" /> 
-       <h2>izhar azim welcome</h2>
+       
+       
       <Header />
       <Footer />  
       
