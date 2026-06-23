@@ -5,7 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Header from './Header'
 import Footer from './Footer'
-import logo from './assets/logo.png';
+import download from './assets/download.jpg';
 
 
 function App() {
@@ -13,9 +13,14 @@ function App() {
 
   return (
     <div className="App">
-       <img src={logo} alt="Logo" className="logo" /> 
-     <h2>izhar azim welcome</h2>
-    <Header />
+       <div className="logo-container">
+         {/* <img src={reactLogo} alt="React Logo" className="logo" />  */}
+         {/* <img src={viteLogo} alt="Vite Logo" className="logo" />  */}
+       </div>
+       {/* <img src={heroImg} alt="Hero Image" className="hero-img" />  */}
+       <img src={download} alt="Download" className="download-img" /> 
+       <h2>izhar azim welcome</h2>
+      <Header />
       <Footer />  
       
     </div>
